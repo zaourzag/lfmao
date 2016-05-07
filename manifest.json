@@ -3,7 +3,7 @@
     "version": "1.9",
     "modLoaders": [
       {
-        "id": "forge-12.16.1.1891",
+        "id": "forge-12.16.1.1892",
         "primary": true
       }
     ]
@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Principium",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "stonebound",
   "files": [
     {
@@ -121,7 +121,7 @@
     },
     {
       "projectID": 241891,
-      "fileID": 2290185,
+      "fileID": 2295771,
       "required": true
     },
     {
@@ -136,7 +136,7 @@
     },
     {
       "projectID": 74924,
-      "fileID": 2293459,
+      "fileID": 2297859,
       "required": true
     },
     {
@@ -196,7 +196,7 @@
     },
     {
       "projectID": 243076,
-      "fileID": 2293249,
+      "fileID": 2296896,
       "required": true
     },
     {
@@ -245,13 +245,8 @@
       "required": true
     },
     {
-      "projectID": 241113,
-      "fileID": 2291285,
-      "required": true
-    },
-    {
       "projectID": 74072,
-      "fileID": 2293460,
+      "fileID": 2297869,
       "required": true
     },
     {
@@ -307,7 +302,7 @@
     {
       "projectID": 68528,
       "fileID": 2292652,
-      "required": true
+      "required": false
     },
     {
       "projectID": 240959,
@@ -411,7 +406,7 @@
     },
     {
       "projectID": 231484,
-      "fileID": 2293415,
+      "fileID": 2298562,
       "required": true
     },
     {
