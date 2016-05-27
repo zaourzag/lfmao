@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Principium",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "milotig",
   "files": [
     {
@@ -27,16 +27,6 @@
     {
       "projectID": 238403,
       "fileID": 2293859,
-      "required": true
-    },
-    {
-      "projectID": 238856,
-      "fileID": 2293695,
-      "required": true
-    },
-    {
-      "projectID": 238857,
-      "fileID": 2294023,
       "required": true
     },
     {
@@ -395,16 +385,6 @@
       "required": true
     },
     {
-      "projectID": 221857,
-      "fileID": 2298224,
-      "required": true
-    },
-    {
-      "projectID": 231484,
-      "fileID": 2299137,
-      "required": true
-    },
-    {
       "projectID": 243478,
       "fileID": 2298268,
       "required": true
@@ -422,6 +402,11 @@
     {
       "projectID": 241973,
       "fileID": 2299308,
+      "required": true
+    },
+    {
+      "projectID": 76612,
+      "fileID": 2298536,
       "required": true
     }
   ],
