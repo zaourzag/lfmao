@@ -1,0 +1,30 @@
+{
+  name: "Principium",
+  description: "CH JSON for Principium modpack. Made by Alleluid.",
+  sets: [
+    {
+      name: "default",
+      operations: [
+        {
+          __result: "Turns the special stones into cobble.",
+          type: "addShapeless",
+          output: "minecraft:cobblestone",
+          quantity: 1,
+          with: ["minecraft:stone:1"]
+        },
+        {
+          type: "addShapeless",
+          output: "minecraft:cobblestone",
+          quantity: 1,
+          with: ["minecraft:stone:3"]
+        },
+        {
+          type: "addShapeless",
+          output: "minecraft:cobblestone",
+          quantity: 1,
+          with: ["minecraft:stone:5"]
+        }
+      ]
+    }
+  ]
+}

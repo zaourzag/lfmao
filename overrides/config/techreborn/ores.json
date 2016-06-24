@@ -11,7 +11,7 @@
       veinSize: 8
       veinsPerChunk: 16
       minYHeight: 10
-      maxYHeight: 60false
+      maxYHeight: 60
       shouldSpawn: true
     }
     {
