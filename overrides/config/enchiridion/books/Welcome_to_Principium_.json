@@ -1,4 +1,5 @@
 {
+  "modid": "",
   "uniqueName": "Welcome_to_Principium_",
   "saveName": "Welcome_to_Principium_",
   "displayName": "Welcome to Principium!",
@@ -82,10 +83,10 @@
           "layerIndex": 1
         },
         {
-          "xPos": 24,
-          "yPos": 23,
-          "width": 200.0,
-          "height": 80.0,
+          "xPos": 21,
+          "yPos": 20,
+          "width": 181.0,
+          "height": 76.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureText",
             "properties": {
@@ -101,8 +102,5 @@
       "pageNumber": 0,
       "isScrollable": false
     }
-  ],
-  "defaultIDs": [
-    "enchiridion_default_buttons"
   ]
 }

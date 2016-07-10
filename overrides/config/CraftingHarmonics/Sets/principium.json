@@ -23,6 +23,61 @@
           output: "minecraft:cobblestone",
           quantity: 1,
           with: ["minecraft:stone:5"]
+        },
+        {
+          __result: "Remove original digital miner recipe",
+          type: "remove",
+          what: "mekanism:MachineBlock:4"
+        },
+        {
+          __result: "Metaphaser broken because of IC2 API",
+          type: "remove",
+          what: "ffs:blockMetaphaser"
+        },
+        {
+          __result: "People should use quarry card or Digiminer",
+          type: "remove",
+          what: "japta:rngQuarry"
+        },
+        {
+          __result: "Makes Digital Miner more expensive",
+          type: "addShaped",
+          output: "mekanism:MachineBlock:4",
+          quantity: 1,
+          with: [
+              "mekanism:AtomicAlloy", "rftools:shape_card:2","mekanism:AtomicAlloy",
+              "mekanism:MachineBlock:15", "mekanism:Robit", "mekanism:MachineBlock:15",
+              "mekanism:TeleportationCore", "mekanism:BasicBlock:8", "mekanism:TeleportationCore"
+          ]
+        },
+        {
+          __result: "Remove original quarry card recipe",
+          type: "remove",
+          what: "rftools:shape_card:2"
+        },
+        {
+          __result: "Makes Quarry Card more expensive",
+          type: "addShaped",
+          output: "rftools:shape_card:2",
+          quantity: 1,
+          with: [
+              "<dustRedstone>", "mekanism:AtomicDisassembler","<dustRedstone>",
+              "<ingotSteel>", "rftools:shape_card:0", "<ingotSteel>",
+              "<dustRedstone>", "mekanism:BasicBlock:2", "<dustRedstone>"
+          ]
+        },
+        {
+            __result: "Gives the player the intro book when starting off.",
+            type: "addStarterItem",
+            what: "enchiridion:book:0:1:={identifier:\"Welcome_to_Principium_\"}"
+        },
+        {
+          __result: "Adds recipe for Menril sapling, instead of ugly worldgen",
+          type: "addShapeless",
+          output: "integrateddynamics:menrilSapling",
+          quantity: 1,
+          with: ["<gemDiamond>", "<treeSapling>"]
+
         }
       ]
     }
