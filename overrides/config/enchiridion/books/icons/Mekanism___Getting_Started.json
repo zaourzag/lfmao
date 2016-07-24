@@ -1,6 +1,6 @@
 {
   "parent": "enchiridion:item/book",
   "textures": {
-    "layer0": "enchiridion:items/book_red"
+    "layer0": "enchiridion:items/book_green1"
   }
 }
