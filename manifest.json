@@ -3,7 +3,7 @@
     "version": "1.10.2",
     "modLoaders": [
       {
-        "id": "forge-12.18.1.2018",
+        "id": "forge-12.18.1.2026",
         "primary": true
       }
     ]
@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Principium 1.10.2",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "milotig",
   "files": [
     {
@@ -290,11 +290,6 @@
       "required": true
     },
     {
-      "projectID": 229708,
-      "fileID": 2307218,
-      "required": true
-    },
-    {
       "projectID": 231484,
       "fileID": 2308445,
       "required": true
@@ -302,11 +297,6 @@
     {
       "projectID": 227391,
       "fileID": 2305520,
-      "required": true
-    },
-    {
-      "projectID": 237989,
-      "fileID": 2316525,
       "required": true
     },
     {
@@ -427,11 +417,6 @@
     {
       "projectID": 242195,
       "fileID": 2317949,
-      "required": true
-    },
-    {
-      "projectID": 229769,
-      "fileID": 2318303,
       "required": true
     },
     {
