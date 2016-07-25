@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Principium 1.10.2",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "milotig",
   "files": [
     {
@@ -42,11 +42,6 @@
     {
       "projectID": 224791,
       "fileID": 2317643,
-      "required": true
-    },
-    {
-      "projectID": 224018,
-      "fileID": 2313604,
       "required": true
     },
     {
@@ -192,11 +187,6 @@
     {
       "projectID": 225738,
       "fileID": 2312510,
-      "required": true
-    },
-    {
-      "projectID": 246390,
-      "fileID": 2313585,
       "required": true
     },
     {
