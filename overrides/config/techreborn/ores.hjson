@@ -56,28 +56,8 @@
     }
     {
       blockName: tile.techreborn.ore
-      blockNiceName: Tetrahedrite
-      meta: 12
-      veinSize: 6
-      veinsPerChunk: 16
-      minYHeight: 10
-      maxYHeight: 60
-      shouldSpawn: true
-    }
-    {
-      blockName: tile.techreborn.ore
-      blockNiceName: Cassiterite
-      meta: 13
-      veinSize: 6
-      veinsPerChunk: 16
-      minYHeight: 20
-      maxYHeight: 60
-      shouldSpawn: false
-    }
-    {
-      blockName: tile.techreborn.ore
       blockNiceName: Lead
-      meta: 14
+      meta: 12
       veinSize: 6
       veinsPerChunk: 16
       minYHeight: 20
@@ -87,7 +67,7 @@
     {
       blockName: tile.techreborn.ore
       blockNiceName: Silver
-      meta: 15
+      meta: 13
       veinSize: 6
       veinsPerChunk: 16
       minYHeight: 20
@@ -152,7 +132,7 @@
   [
     {
       blockName: tile.techreborn.ore
-      blockNiceName: Tungston
+      blockNiceName: Tungsten
       meta: 8
       veinSize: 6
       veinsPerChunk: 3
