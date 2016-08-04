@@ -6,6 +6,31 @@
       name: "default",
       operations: [
         {
+            __result: "Removes the ability to craft buttons with special stones",
+            type: "remove",
+            what: "minecraft:stone_button",
+            with: ["minecraft:stone:1"]
+        },
+        {
+            __result: "Removes the ability to craft buttons with special stones",
+            type: "remove",
+            what: "minecraft:stone_button",
+            with: ["minecraft:stone:3"]
+        },
+        {
+            __result: "Removes the ability to craft buttons with special stones",
+            type: "remove",
+            what: "minecraft:stone_button",
+            with: ["minecraft:stone:5"]
+        },
+        {
+          __result: "Re-adds basic stone into buttons",
+          type: "addShapeless",
+          output: "minecraft:stone_button",
+          quantity: 1,
+          with: ["minecraft:stone:0"]
+        },
+        {
           __result: "Turns the special stones into cobble.",
           type: "addShapeless",
           output: "minecraft:cobblestone",
