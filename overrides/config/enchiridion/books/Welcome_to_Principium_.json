@@ -246,10 +246,10 @@
           "layerIndex": 3
         },
         {
-          "xPos": 231,
-          "yPos": 22,
-          "width": 174.0,
-          "height": 174.0,
+          "xPos": 147,
+          "yPos": -49,
+          "width": 338.0,
+          "height": 338.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureButton",
             "properties": {
@@ -270,8 +270,8 @@
               "unhoveredText": "",
               "unhoveredXOffset": 0,
               "unhoveredYOffset": 0,
-              "hoveredResource": "enchiridion:images/Welcome_to_Principium_/sidelogohoverE.png",
-              "unhoveredResource": "enchiridion:images/Welcome_to_Principium_/sidelogohoverE.png"
+              "hoveredResource": "enchiridion:images/Welcome_to_Principium_/stonebound logo 1-b Final.png",
+              "unhoveredResource": "enchiridion:images/Welcome_to_Principium_/stonebound logo 1-b Final.png"
             }
           },
           "isLocked": false,
