@@ -6,22 +6,22 @@
       name: "default",
       operations: [
         {
-            __result: "Removes the ability to craft buttons with special stones",
-            type: "remove",
-            what: "minecraft:stone_button",
-            with: ["minecraft:stone:1"]
+          __result: "Removes the ability to craft buttons with special stones",
+          type: "remove",
+          what: "minecraft:stone_button",
+          with: ["minecraft:stone:1"]
         },
         {
-            __result: "Removes the ability to craft buttons with special stones",
-            type: "remove",
-            what: "minecraft:stone_button",
-            with: ["minecraft:stone:3"]
+          __result: "Removes the ability to craft buttons with special stones",
+          type: "remove",
+          what: "minecraft:stone_button",
+          with: ["minecraft:stone:3"]
         },
         {
-            __result: "Removes the ability to craft buttons with special stones",
-            type: "remove",
-            what: "minecraft:stone_button",
-            with: ["minecraft:stone:5"]
+          __result: "Removes the ability to craft buttons with special stones",
+          type: "remove",
+          what: "minecraft:stone_button",
+          with: ["minecraft:stone:5"]
         },
         {
           __result: "Re-adds basic stone into buttons",
@@ -70,9 +70,9 @@
           output: "mekanism:MachineBlock:4",
           quantity: 1,
           with: [
-              "mekanism:AtomicAlloy", "rftools:shape_card:2","mekanism:AtomicAlloy",
-              "mekanism:MachineBlock:15", "mekanism:Robit", "mekanism:MachineBlock:15",
-              "mekanism:TeleportationCore", "mekanism:BasicBlock:8", "mekanism:TeleportationCore"
+            "mekanism:AtomicAlloy", "rftools:shape_card:2","mekanism:AtomicAlloy",
+            "mekanism:MachineBlock:15", "mekanism:Robit", "mekanism:MachineBlock:15",
+            "mekanism:TeleportationCore", "mekanism:BasicBlock:8", "mekanism:TeleportationCore"
           ]
         },
         {
@@ -86,15 +86,15 @@
           output: "rftools:shape_card:2",
           quantity: 1,
           with: [
-              "<dustRedstone>", "mekanism:AtomicDisassembler","<dustRedstone>",
-              "<ingotSteel>", "rftools:shape_card:0", "<ingotSteel>",
-              "<dustRedstone>", "mekanism:BasicBlock:2", "<dustRedstone>"
+            "<dustRedstone>", "mekanism:AtomicDisassembler","<dustRedstone>",
+            "<ingotSteel>", "rftools:shape_card:0", "<ingotSteel>",
+            "<dustRedstone>", "mekanism:BasicBlock:2", "<dustRedstone>"
           ]
         },
         {
-            __result: "Gives the player the intro book when starting off.",
-            type: "addStarterItem",
-            what: "enchiridion:book:0:1:={identifier:\"Welcome_to_Principium_\"}"
+          __result: "Gives the player the intro book when starting off.",
+          type: "addStarterItem",
+          what: "enchiridion:book:0:1:={identifier:\"Welcome_to_Principium_\"}"
         },
         {
           __result: "Adds recipe for Menril sapling, instead of ugly worldgen",
@@ -102,45 +102,61 @@
           output: "integrateddynamics:menrilSapling",
           quantity: 1,
           with: ["<gemDiamond>", "<treeSapling>"]
-
         },
         {
-            __result: "Makes Mek book 1 craftable",
-            type: "addShaped",
-            output: "enchiridion:book:0:1:={identifier:\"Mekanism___Getting_Started\"}",
-            quantity: 1,
-            with: [
-                "", "<dustRedstone>","",
-                "<ingotIron>", "minecraft:book", "<ingotIron>",
-                "", "<dustRedstone>", ""
-            ]
+          __result: "Makes Mek book 1 craftable",
+          type: "addShaped",
+          output: "enchiridion:book:0:1:={identifier:\"Mekanism___Getting_Started\"}",
+          quantity: 1,
+          with: [
+            "", "<dustRedstone>","",
+            "<ingotIron>", "minecraft:book", "<ingotIron>",
+            "", "<dustRedstone>", ""
+          ]
         },
         {
-            __result: "Makes FTBU book craftable",
-            type: "addShaped",
-            output: "enchiridion:book:0:1:={identifier:\"Chunk_Loading_with_FTB_Utilities\"}",
-            quantity: 1,
-            with: [
-                "", "<cobblestone>","",
-                "<cobblestone>", "minecraft:book", "<cobblestone>",
-                "", "<cobblestone>", ""
-            ]
+          __result: "Makes FTBU book craftable",
+          type: "addShaped",
+          output: "enchiridion:book:0:1:={identifier:\"Chunk_Loading_with_FTB_Utilities\"}",
+          quantity: 1,
+          with: [
+            "", "<cobblestone>","",
+            "<cobblestone>", "minecraft:book", "<cobblestone>",
+            "", "<cobblestone>", ""
+          ]
         },
         {
-            __result: "Makes intro craftable",
-            type: "addShaped",
-            output: "enchiridion:book:0:1:={identifier:\"Welcome_to_Principium_\"}",
-            quantity: 1,
-            with: [
-                "", "<stickWood>","",
-                "<stickWood>", "minecraft:book", "<stickWood>",
-                "", "<stickWood>", ""
-            ]
+          __result: "Makes intro craftable",
+          type: "addShaped",
+          output: "enchiridion:book:0:1:={identifier:\"Welcome_to_Principium_\"}",
+          quantity: 1,
+          with: [
+            "", "<stickWood>","",
+            "<stickWood>", "minecraft:book", "<stickWood>",
+            "", "<stickWood>", ""
+          ]
         },
         {
-            __result: "Removes extrautils2 drums from being craftable",
-            type: "remove",
-            what: "extrautils2:Drum"
+          __result: "Removes extrautils2 drums from being craftable",
+          type: "remove",
+          what: "extrautils2:Drum"
+        },
+        {
+          __result: "Remove original fresh milk recipe",
+          type: "remove",
+          what: "harvestcraft:freshmilkItem"
+        },
+        {
+          __result: "Adds recipe fresh milk recipe to fix conflict with AA cheese",
+          type: "addShapeless",
+          output: "harvestcraft:freshmilkItem",
+          quantity: 4,
+          with: ["minecraft:milk_bucket",
+            {
+              item: "<toolPot>",
+              returnOnCraft: true
+            }
+          ]
         }
       ]
     }
