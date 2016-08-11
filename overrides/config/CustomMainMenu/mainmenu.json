@@ -1,0 +1,188 @@
+{
+    "images":
+    {
+		"modpack":
+		{
+            "image" : "stonebound:modpack.png",
+            "posX" : -125,
+            "posY" : -155,
+            "width" : 250,
+            "height" : 150,
+            "alignment" : "center"
+		}
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : -100,
+            "posY" : 0,
+            "width" : 98,
+            "height" : 20,
+			"alignment" : "center",
+			"texture" : "stonebound:shortbutton.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : 2,
+            "posY" : 0,
+            "width" : 98,
+            "height" : 20,
+			"alignment" : "center",
+			"texture" : "stonebound:shortbutton.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        "options":
+        {
+            "text" : "menu.options",
+            "posX" : -100,
+            "posY" : 25,
+            "width" : 98,
+            "height" : 20,
+			"alignment" : "center",
+			"texture" : "stonebound:shortbutton.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },        
+        "mods":
+        {
+            "text" : "Mods",
+            "posX" : 2,
+            "posY" : 25,
+            "width" : 98,
+            "height" : 20,
+			"alignment" : "center",
+			"texture" : "stonebound:shortbutton.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },		
+        "issues":
+        {
+            "text" : "Issue Tracker",
+            "posX" : -100,
+            "posY" : 50,
+            "width" : 98,
+            "height" : 20,
+			"alignment" : "center",
+			"texture" : "stonebound:shortbutton.png",
+            "action" : 
+            {
+                "type" : "openLink",
+				"link" : "https://github.com/Stonebound/Principium/issues"
+            }
+        },		
+        "forums":
+        {
+            "text" : "Forums",
+            "posX" : 2,
+            "posY" : 50,
+            "width" : 98,
+            "height" : 20,
+			"alignment" : "center",
+			"texture" : "stonebound:shortbutton.png",
+            "action" : 
+            {
+                "type" : "openLink",
+				"link" : "https://forums.stonebound.net/category/15/principium"
+            }
+        },     
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : -100,
+            "posY" : 75,
+            "width" : 200,
+            "height" : 20,
+			"alignment" : "center",
+			"texture" : "stonebound:longbutton.png",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },     
+        "refresh":
+        {
+            "text" : "reload",
+            "posX" : -200,
+            "posY" : 0,
+            "width" : 20,
+            "height" : 20,
+			"alignment" : "top_left",
+            "texture" : "stonebound:refresh.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        }	
+    },
+    
+    "texts":
+    {
+        "mojang":
+        {
+            "text" : "Copyright Mojang AB",
+            "posX" : -65,
+            "posY" : -13,
+			"fontSize" : .6,
+            "color" : -1,
+			"hoverColor" : -1,
+            "alignment" : "bottom_right"
+        },
+		"forge":{
+			"text" : "Minecraft #mcversion#",
+            "posX" : 3,
+            "posY" : -19,
+			"fontSize" : .6,
+            "color" : -1,
+			"hoverColor" : -1,
+            "alignment" : "bottom_left"
+		},
+		"modsloaded":{
+			"text" : "#modsloaded# Mods Loaded",
+            "posX" : 3,
+            "posY" : -13,
+			"fontSize" : .6,
+            "color" : -1,
+			"hoverColor" : -1,
+            "alignment" : "bottom_left"
+		},
+		"modpack":{
+			"text" : "Principium 1.0.7",
+            "posX" : 3,
+            "posY" : -27,
+			"fontSize" : .8,
+            "color" : -1,
+			"hoverColor" : -1,
+            "alignment" : "bottom_left"
+		}
+    },
+    "other":
+    {
+		"panorama":
+		{
+			"images" : "stonebound:panorama/panorama_%c.png",
+			"animate" : true,
+            "animationSpeed" : 1,
+            "blur" : true,
+            "gradient" : true
+		}
+    }
+}
