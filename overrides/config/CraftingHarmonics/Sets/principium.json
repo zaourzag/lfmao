@@ -137,11 +137,6 @@
           ]
         },
         {
-          __result: "Removes extrautils2 drums from being craftable",
-          type: "remove",
-          what: "extrautils2:Drum"
-        },
-        {
           __result: "Remove original fresh milk recipe",
           type: "remove",
           what: "harvestcraft:freshmilkItem"
