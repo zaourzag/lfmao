@@ -165,7 +165,7 @@
             "alignment" : "bottom_left"
 		},
 		"modpack":{
-			"text" : "Principium 1.0.7",
+			"text" : "Principium 1.0.8",
             "posX" : 3,
             "posY" : -27,
 			"fontSize" : .8,
