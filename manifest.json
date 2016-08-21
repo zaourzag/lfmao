@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Principium",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "author": "Alleluid",
   "projectID": 247920,
   "files": [
@@ -27,7 +27,7 @@
     },
     {
       "projectID": 223852,
-      "fileID": 2323611,
+      "fileID": 2325151,
       "required": true
     },
     {
@@ -87,12 +87,12 @@
     },
     {
       "projectID": 76612,
-      "fileID": 2314434,
+      "fileID": 2324054,
       "required": true
     },
     {
       "projectID": 231868,
-      "fileID": 2323442,
+      "fileID": 2325269,
       "required": true
     },
     {
@@ -127,7 +127,7 @@
     },
     {
       "projectID": 59751,
-      "fileID": 2323575,
+      "fileID": 2323952,
       "required": true
     },
     {
@@ -207,7 +207,7 @@
     },
     {
       "projectID": 243121,
-      "fileID": 2323482,
+      "fileID": 2324059,
       "required": true
     },
     {
@@ -217,12 +217,12 @@
     },
     {
       "projectID": 224641,
-      "fileID": 2323396,
+      "fileID": 2325153,
       "required": true
     },
     {
       "projectID": 246183,
-      "fileID": 2323489,
+      "fileID": 2323924,
       "required": true
     },
     {
@@ -312,7 +312,7 @@
     },
     {
       "projectID": 241319,
-      "fileID": 2323114,
+      "fileID": 2324102,
       "required": true
     },
     {
@@ -437,12 +437,37 @@
     },
     {
       "projectID": 243076,
-      "fileID": 2322890,
+      "fileID": 2323857,
       "required": true
     },
     {
-      "projectID": 239431,
-      "fileID": 2321940,
+      "projectID": 242638,
+      "fileID": 2321920,
+      "required": true
+    },
+    {
+      "projectID": 248370,
+      "fileID": 2320960,
+      "required": true
+    },
+    {
+      "projectID": 247712,
+      "fileID": 2325225,
+      "required": true
+    },
+    {
+      "projectID": 235577,
+      "fileID": 2322681,
+      "required": true
+    },
+    {
+      "projectID": 228832,
+      "fileID": 2325317,
+      "required": true
+    },
+    {
+      "projectID": 224791,
+      "fileID": 2325131,
       "required": true
     }
   ],
