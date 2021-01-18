@@ -1,17 +1,17 @@
 {
   "minecraft": {
-    "version": "1.10.2",
+    "version": "1.12.2",
     "modLoaders": [
       {
-        "id": "forge-12.18.1.2086",
+        "id": " forge-1.12.2-14.23.5.2854",
         "primary": true
       }
     ]
   },
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "Principium",
-  "version": "1.1.0",
+  "name": "lfmao",
+  "version": "1.2",
   "author": "Alleluid",
   "projectID": 247920,
   "files": [
